@@ -1,3 +1,51 @@
+*{
+text-align:center;
+background-color: lightgrey;
+font-family: 'Work_Sans', sans-serif;
+
+
+
+}
 h1 {
-  color: salmon;
+  color:rgb(90, 90, 90);
+}
+p {
+  font-size:12px;
+}
+
+img {
+  flex-direction: row;
+  width:250px;
+  height:250px;
+  
+}
+.img_group {
+  display: inline-block;
+
+}
+.CT {
+  position: absolute;
+  text-align: center;
+  color:white;
+  background: none;
+  top:80px;
+  bottom: 40px;
+  left:50px;
+  right:50px;
+  font:16px;
+
+
+}
+.img_wrd{
+  float:center;
+  position:relative;
+  display: inline-block;
+  
+}
+.button {
+  position: center;
+  background-color:white;
+  width:300px;
+  padding:5px;
+  margin:30px;
 }
